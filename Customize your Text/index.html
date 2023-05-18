@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="whole">
+            <div class="top">
+                <h1 class="mainH">Customize your Text </h1>
+                <h2 class="mainH dev ">By cloudious©</h2>
+            </div>
+            <div class="mid">
+
+                <textarea class="textfld" placeholder="Type Here....." id="text"></textarea>
+                <div class="editor">
+                    <h2 class="eHeading">Font Size:</h2><br>
+                    <select onchange="fSize()" class="fCat" id="fSize">
+                        <option value="10px">10px</option>
+                        <option value="20px">20px</option>
+                        <option value="30px">30px</option>
+                        <option value="40px" >40px</option>
+                        <option value="50px">50px</option>
+                        <option value="60px">60px</option>
+                        <option value="70px">70px</option>
+                        <option value="80px">80px</option>
+                        <option value="90px">90px</option>
+                        <option value="100px">100px</option>
+
+                    </select>
+                    <h2 class="eHeading">Font Style:</h2><br>
+                    <select class="fCat">
+                        <option value="Wix Madefor Display">Wix Madefor Display</option>
+                        <option value="Roboto Condensed">Roboto Condensed</option>
+                        <option value="Oswald">Oswald</option>
+                        <option value="PT Serif">PT Serif</option>
+                        <option value="Foldit">Foldit</option>
+                        <option value="Anton">Anton</option>
+                        <option value="Dancing Script">Dancing Script</option>
+                        <option value="Lobster">Lobster</option>
+                        <option value="Pacifico">Pacifico</option>
+                        <option value="Barlow Condensed">Barlow Condensed</option>
+
+                    </select>
+                    <div class="color">
+                        <div>
+                            <h2 class="eHeading">Font Color:</h2><br>
+                            <input type="color" class="cPicker">
+                        </div>
+                        <div>   
+                            <h2 class="eHeading">Background:</h2><br>
+                            <input type="color" class="cPicker">
+                        </div>
+                    </div>
+                    <div class="rPanel">
+                        <input type="radio" name="bold" value="bold"><h2 class="radio"> bold</h2>
+                        <input type="radio" name="italics" value="italics"> <h2 class="radio"> italics</h2>
+                        <input type="radio" name="underline" value="underline"> <h2 class="radio"> underline</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
